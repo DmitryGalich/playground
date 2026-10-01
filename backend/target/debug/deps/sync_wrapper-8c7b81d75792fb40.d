@@ -1,7 +1,0 @@
-/workspaces/playground/backend/target/debug/deps/sync_wrapper-8c7b81d75792fb40.d: /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sync_wrapper-1.0.2/src/lib.rs
-
-/workspaces/playground/backend/target/debug/deps/libsync_wrapper-8c7b81d75792fb40.rlib: /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sync_wrapper-1.0.2/src/lib.rs
-
-/workspaces/playground/backend/target/debug/deps/libsync_wrapper-8c7b81d75792fb40.rmeta: /usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sync_wrapper-1.0.2/src/lib.rs
-
-/usr/local/cargo/registry/src/index.crates.io-1949cf8c6b5b557f/sync_wrapper-1.0.2/src/lib.rs:
