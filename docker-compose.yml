@@ -6,9 +6,16 @@ services:
       - ./gateway/nginx.conf:/etc/nginx/nginx.conf:ro
     ports:
       - "80:80"
+    networks:
+      - internal_network
 
   backend:
     container_name: backend
     build:
       context: ./backend
       dockerfile: Dockerfile.dev
+    networks:
+      - internal_network
+
+networks:
+  internal_network:
