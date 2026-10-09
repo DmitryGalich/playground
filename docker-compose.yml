@@ -11,13 +11,13 @@ services:
     depends_on:
       - keycloak
 
-  # backend:
-  #   container_name: backend
-  #   build:
-  #     context: ./backend
-  #     dockerfile: Dockerfile.dev
-  #   networks:
-  #     - internal_network
+  backend:
+    container_name: backend
+    build:
+      context: ./backend
+      dockerfile: Dockerfile.dev
+    networks:
+      - internal_network
 
   keycloak_db:
     image: postgres:16-alpine
