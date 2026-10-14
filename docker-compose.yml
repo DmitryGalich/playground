@@ -56,7 +56,8 @@ services:
       - internal_network
     depends_on:
       - keycloak_db
-
+    volumes:
+      - ./keycloak_realms:/opt/keycloak/data/import:ro
 
 networks:
   internal_network:
